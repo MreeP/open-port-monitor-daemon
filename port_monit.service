@@ -1,0 +1,5 @@
+[Unit]
+Description=Port Monitor Service
+
+[Service]
+ExecStart=/bin/bash ~/port_monit.sh
